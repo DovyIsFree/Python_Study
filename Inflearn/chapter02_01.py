@@ -1,5 +1,5 @@
 # Chapter02-1
-# 파이썬 완전 기초
+# Python Bagic
 # Print Useage
 # Refrence https://www.python-course.eu/python3_formatted_output.php
 
