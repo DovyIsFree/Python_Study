@@ -71,4 +71,29 @@ a.sort()
 print('a - ', a)
 a.reverse()
 print('a - ', a)
-  
+print('a - ', a.index(3), a[3])
+a.insert(2, 7) # index, value
+print('a - ', a)
+a.reverse()
+print('a - ', a)
+
+# del a[9543]
+a.remove(10) # delete specific value
+print()
+
+print('a - ', a)
+print('pop a - ', a.pop()) #LIFO
+print('a - ', a)
+print('pop a - ', a.pop())
+print('a - ', a)
+print('4 in a - ', a.count(4))
+ex = [8, 9]
+a.extend(ex)
+print('a - ', a)
+
+# 삭제 : remove, pop, del
+
+# 반복문 활용
+while a:
+    data = a.pop()
+    print(data)
