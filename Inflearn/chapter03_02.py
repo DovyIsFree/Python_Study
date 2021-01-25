@@ -102,3 +102,10 @@ print(str_s1[-5:])
 print(str_s1[1:-2])
 print(str_s1[::2])
 print(str_s1[::-1]) #오른쪽에서 왼쪽으로 호출
+print()
+
+# 아스키 코드 (또는 유니코드)
+a = 'z'
+
+print(ord(a)) #아스키 코드로
+print(chr(122)) #문자로
