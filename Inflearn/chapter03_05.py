@@ -44,3 +44,69 @@ print('b - ', b[0])
 print('b - ', b.get(0))
 print('f - ', f.get('City'))
 print('f - ', f.get('Age'))
+
+
+# 추가
+a['address'] = 'seoul'
+print('a - ', a)
+a['rank'] = [1,2,3]
+print('a - ', a)
+
+# check length
+print('a - ', len(a))
+print('b - ', len(b))
+print('c - ', len(c))
+print('d - ', len(d))
+
+# dict_keys, dict_values, dict_ites : 반목문(__iter__)에서 사용 가능
+
+print('a - ', a.keys())
+print('b - ', b.keys())
+print('c - ', c.keys())
+print('d - ', d.keys())
+print('a - ', list(a.keys()))
+print('b - ', list(b.keys()))
+print()
+
+print('a - ', a.values())
+print('b - ', b.values())
+print('c - ', c.values())
+print('a - ', list(a.values()))
+print('b - ', list(b.values()))
+print()
+
+print('a - ', a.items())
+print('b - ', b.items())
+print('c - ', c.items())
+print('a - ', list(a.items()))
+print('b - ', list(b.items()))
+print()
+
+
+print('a - ', a.pop('name'))
+print('a - ', a)
+print('c - ', c.pop('arr'))
+print('c - ', c)
+print()
+
+print('f - ', f.popitem())
+print('f - ', f)
+print('f - ', f.popitem())
+print('f - ', f)
+print('f - ', f.popitem())
+print('f - ', f)
+print('f - ', f.popitem())
+print('f - ', f)
+print('f - ', f.popitem())
+print('f - ', f)
+print()
+
+print('a - ', 'birth' in a) # in연산자는 key를 포함하고 있는지 check
+print('d - ', 'City' in d)
+print()
+
+# 수정 & 추가
+a['test'] = 'test_dict'
+print('a - ', a)
+a['address'] = 'dj'
+print('a - ', a)
