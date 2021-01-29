@@ -1,4 +1,4 @@
-# Chapter02-2
+# Chapter02-02
 # Python Bagic
 # Print Useage
 

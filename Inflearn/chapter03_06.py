@@ -1,4 +1,4 @@
-# chapter03_5
+# chapter03_06
 # 집합(Set) 특징
 # 집합(Set) 자료형(순서X, 중복X)
 

@@ -1,4 +1,4 @@
-# chapter03_4
+# chapter03_04
 # Python Tuple
 # 리스트와 비교 중요
 # 튜플 자료형 (순서O, 중복O, 수정X, 삭제X) # 불변

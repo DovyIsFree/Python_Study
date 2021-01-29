@@ -1,4 +1,4 @@
-# chapter03_5
+# chapter03_05
 # Python Dictionaty
 # 범용적으로 가장 많이 사용 (JSON)
 # 딕셔너리 자료형 (순서X, 키 중복X, 수정O, 삭제O)
@@ -109,4 +109,11 @@ print()
 a['test'] = 'test_dict'
 print('a - ', a)
 a['address'] = 'dj'
+print('a - ', a)
+
+a.update(birth='910904')
+print('a - ', a)
+temp = {'address' : 'Busan'}
+
+a.update(temp)
 print('a - ', a)
