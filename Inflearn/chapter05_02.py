@@ -1,4 +1,4 @@
-# Chapter05-01
+# Chapter05-02
 # 파이썬 사용자 입력
 # Input 사용법
 # 기본 타입(str)

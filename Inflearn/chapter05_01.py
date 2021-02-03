@@ -140,5 +140,4 @@ print(lambda_mul_func(50, 50))
 def func_final(x, y, func):
     print('>>>>>', x * y * func(100,100))
 
-func_final(10, 20, mul_func_var) #바로 그자리에서 함수 사용하고 싶을 때
-lambda x,y : x * y
+func_final(10, 20, lambda_mul_func) #바로 그자리에서 함수 사용하고 싶을 때
