@@ -1,8 +1,14 @@
-# Chapter10-01
-# Hangman(행맨) 미니 게임 제작(1)
-# 기본 프로그램 제작 및 테스트
+# Chapter10-02
+# Hangman(행맨) 미니 게임 제작(2)
+# 프로그램 완성 및 최종 테스
 
 import time
+# csv 처리
+import csv
+# 랜덤
+import random
+# 사운드 처리
+import winsound
 
 # 처음 인사
 name = input("What is your name? ")
@@ -11,12 +17,18 @@ print("Hi, " + name, "Time to play hangman game!")
 
 print()
 
-
 time.sleep(1)
 
 print("Start Loading...")
 print()
 time.sleep(0.5)
+
+# CSV 단어 리스트
+words = []
+
+# 문제 CSV 파일 로드
+with open('./resource/word_list.csv','r') as f:
+    reader = csv.reader(f)
 
 # 정답 단어
 word = "secret"
